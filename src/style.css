@@ -31,24 +31,30 @@ body {
     height:100%;
     font-family: 'Urbanist', sans-serif;
     color: var(--color-1);
-    padding-top:70px;
+    padding-top:80px;
     background: white;    
 }
 h1 {
     color: var(--accent-1);
-    font-size:84px;
+    font-size:96px;
     font-weight:900;
-    margin-top:15px;
-    margin-bottom:10px;
+    margin-bottom:0px;
     margin-left:0;
     margin-right:0;
-    padding-left:35px;
+    padding-left:0;
     text-align:left;
+    letter-spacing:-1px;
+}
+h2{
+    color:var(--accent-2a);
+    font-size: 40px;
+    font-weight:750;
+    margin-top:0;
+    letter-spacing:2px;
 }
 h3 {
     font-size: 24px;
-    font-weight:750;
-    padding-left:38px;
+    font-weight:700;
     margin-bottom:25px;  
 }
 
@@ -71,17 +77,19 @@ h3 {
     border-width:3px;
     border-color: var(--accent-1);
     box-shadow: 4px 4px 4px #21265e9c;
-    margin-top:20px;
-    margin-left: 150px;
+    margin-top:0px;
+    display:flex;
+    justify-content:center;
+    max-width:450px;
 }
 .contact-link:hover{
     color:var(--accent-2a);
 }
 .profile-pic {
-    max-height: 420px;
+    max-height: 360px;
     max-width: auto;
     margin-top:30px;
-    margin-left:40px;
+    margin-left:60px;
     box-shadow:var(--default-shadow);
 }
 .social-icon {
@@ -93,7 +101,7 @@ h3 {
     font-size: 40px;
     font-weight:750;
     color:var(--color-1);
-    padding-left:3px;
+    letter-spacing: normal;
 
 }
 
@@ -109,10 +117,24 @@ h3 {
     border-width: 4px;
     border-color: var(--accent-1);
     border-radius: 4px;
-    margin-left: 33px;
+    margin-left: 20px;
   }
 #logo:hover {
     background-color: var(--color-1);
 }
+#title-text{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
 
-
+@media(max-width:789){
+    .profile-pic{
+        display:block;
+        margin:0 auto;
+        max-height: 150px;
+    }
+    h1 h2 h3 {
+        justify-content:center;
+}   
+}
