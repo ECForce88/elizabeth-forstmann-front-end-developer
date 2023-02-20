@@ -98,7 +98,7 @@ hr {
     background-color:var(--color-1);
     border-radius: 5px;
     border-style: solid;
-    border-width:3px;
+    border-width:2px;
     border-color: var(--accent-1);
     color: white;
     display:block;
@@ -113,21 +113,26 @@ hr {
     color:var(--accent-2a);
 }
 .motto{
-    color:var(--accent-1);
-    font-size:16px;
-    font-weight:bold;
+    color: var(--accent-1);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size:17px;
+    font-weight:900;
     font-style:italic;
-    display:block;
+    max-width:260px;
+    text-align: center;
+    padding-bottom:8px;
+    padding-top:8px;
 }
 .profile-pic {
-    max-height: 350px;
-    max-width: auto;
-    margin-top:15px;
-    border-radius: 5px;
-    border-style:solid;
-    border-width: 5px;
     border-color:var(--color-1);
-    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    max-height: auto;
+    max-width: 260px;
+    margin-top:15px;
+    padding:19px 19px 0px;
+   
 }
 .projects-title {
     color:var(--color-1);
