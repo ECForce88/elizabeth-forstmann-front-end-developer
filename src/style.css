@@ -81,6 +81,7 @@ h3 {
     max-height: 420px;
     max-width: auto;
     margin-top:30px;
+    margin-left: 50px;
     box-shadow:var(--default-shadow);
 }
 .social-icon {
@@ -93,9 +94,11 @@ h3 {
     font-weight:750;
     color:var(--color-1);
     padding-left:3px;
-
 }
-
+.title-text{
+    display:flex;
+    flex-direction: column;
+}
 #linkedin {
     max-height: 24px;
     margin-bottom: 0px;
