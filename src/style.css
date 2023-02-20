@@ -84,6 +84,9 @@ hr {
     max-width: 100px;
     margin-bottom: 5px;
 }
+.bg-blue {
+    background-color:#777ecf2c;
+}
 .bg-green {
     background-color: #7adbc842;
 }
@@ -93,6 +96,7 @@ hr {
     padding-bottom: 0;
     border-bottom:10px solid #48ab97;
   }
+
 .card {
     border-style:solid;
     border-color:white;
@@ -121,6 +125,17 @@ hr {
 }
 .contact-link:hover{
     color:var(--accent-2a);
+}
+.content {
+    padding-top: 70px;
+}
+.content-img {
+    max-width: 380px;
+    height:auto;
+    border-radius: 5px;
+    border-style:solid;
+    border-color:white;
+    border-width:15px;
 }
 .motto{
     color: var(--accent-1);
@@ -163,9 +178,24 @@ hr {
     padding-left:3px;
     padding-top: 30px;
 }
-.title-text{
+#body-text {
+    font-size:17px;
+    text-justify: inter-word;
+    margin-bottom:0;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:30px;
+    padding-left: 30px;
+}
+#content-title {
+    color:var(--color-1);
+    font-size:72px;
+    line-height:100px;
+}
+#title-text{
     display:flex;
     flex-direction: column;
+    text-align:left;
 }
 #linkedin {
     max-height: 24px;
@@ -191,10 +221,6 @@ hr {
 }
 
 @media(max-width:768px){
-    .title-text{
-        display:flex;
-        flex-direction:column;
-    }
     h1{
         font-size:40px;
         text-align:center;
@@ -207,4 +233,11 @@ hr {
         font-size:24px;
         text-align:center;
     }
+    #title-text{
+        display:flex;
+        flex-direction:column;
+    }
+    .content-img {
+        display:block;
+        margin:0 auto;
 }
