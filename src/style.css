@@ -89,7 +89,8 @@ h3 {
     max-height: 360px;
     max-width: auto;
     margin-top:30px;
-    margin-left:60px;
+    display:flex;
+    justify-content: center;
     box-shadow:var(--default-shadow);
 }
 .social-icon {
