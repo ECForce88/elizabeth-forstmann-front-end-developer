@@ -9,7 +9,7 @@
     --color-3: #d8315b;
     --accent-3: #ffc4d3;
   
-    --default-shadow: 8px 8px 8px #21265e9c;
+    --default-shadow: 8px 8px 8px  #21265e9c;
 }
 a {
     color: white;
@@ -31,16 +31,16 @@ body {
     height:100%;
     font-family: 'Urbanist', sans-serif;
     color: var(--color-1);
-    padding-top:80px;
+    padding-top:120px;
     background-color: white;
-    padding-left: 30px;    
+    padding-left: 70px;
+    padding-right:30px;    
 }
 h1 {
     color: var(--accent-1);
     font-size:84px;
     font-weight:900;
-    margin-top:15px;
-    margin-bottom:10px;
+    margin-bottom:0px;
     margin-left:0;
     margin-right:0;
     padding-left:35px;
@@ -58,32 +58,62 @@ h2 {
     font-size: 48px;
     font-weight:750;
     display:block;
-    text-align:center;
+}
+hr {
+    width: 100%;
+    background-color: var(--color-1);
 }
 
 
+.app-link {
+    font-size:18px;
+    font-weight: 300;
+    color: white;
+    background-color: var(--accent-1);
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--accent-1a);
+    padding: 5px 10px;
+    max-width: 100px;
+    margin-bottom: 5px;
+}
+.bg-green {
+    background-color: #7adbc842;
+}
 .bg-theme-blue {
     background-color: var(--color-1);
     margin-bottom: 0;
     padding-bottom: 0;
     border-bottom:10px solid #48ab97;
   }
+.card {
+    border-style:solid;
+    border-color:white;
+    border-width:8px;
+    border-radius:5px;
+}
+.card-title {
+    color:var(--accent-2);
+    font-weight:700;
+    font-size:24px;
+}
+
 .contact-link {
     color: white;
     display:block;
-    margin:0 auto;
-    max-width: 400px;
+    max-width: 78%;
     text-align: center;
     font-size: 18px;
     font-weight:bold;
     background-color:var(--color-1);
     padding: 5px 10px;
-    border-radius: 8px;
+    border-radius: 5px;
     border-style: solid;
     border-width:3px;
     border-color: var(--accent-1);
-    box-shadow: 4px 4px 4px #21265e9c;
-    margin-top:20px;
+    margin-top:45px;
+    margin-left:37px;
 }
 .contact-link:hover{
     color:var(--accent-2a);
@@ -92,20 +122,26 @@ h2 {
     color: #48ab97;
     font-weight:400;
     font-style:italic;
-    font-size: 48px;
+    font-size: 56px;
     display:block;
     text-align:center;
+    padding-left:0;
+    letter-spacing:2px;
 }
 .profile-pic {
-    max-height: 380px;
+    max-height: 370px;
     max-width: auto;
-    margin-top:30px;
+    margin-top:15px;
     margin-left: 50px;
-    box-shadow:var(--default-shadow);
+    border-radius: 5px;
+    
 }
 .projects-title {
-    color:#777ecf;
+    color:var(--color-1);
+    font-weight:700;
+    font-size:38px;
 }
+
 .social-icon {
     max-height: 25px;
     margin-bottom: 0px;
@@ -113,14 +149,15 @@ h2 {
   }
 .subtitle {
     font-size: 40px;
+    line-height:44px;
     font-weight:750;
     color:var(--color-1);
     padding-left:3px;
+    padding-top: 30px;
 }
 .title-text{
     display:flex;
     flex-direction: column;
-    margin-left: 40px;
 }
 #linkedin {
     max-height: 24px;
@@ -139,21 +176,29 @@ h2 {
 #logo:hover {
     background-color: var(--color-1);
 }
+#subheading {
+    margin-top:0;
+    padding-top:0;
+}
+#title {
+    line-height: 80px;
+}
 
 @media(max-width:768px){
+    .title-text{
+        display:flex;
+        flex-direction:column;
+    }
     h1{
         font-size:40px;
-        display:flex;
         text-align:center;
     }
     h2{
         font-size:30px;
-        display:flex;
         text-align:center;
     }
     h3{
         font-size:24px;
-        display:flex;
         text-align:center;
     }
 }
