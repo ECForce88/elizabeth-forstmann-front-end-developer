@@ -50,7 +50,7 @@ h3 {
     margin-bottom:25px;  
 }
 h2 {
-    color: #48ab97;
+    color: var(--accent-1);
     font-weight:500;
     font-size: 48px;
     font-weight:750;
@@ -116,13 +116,12 @@ hr {
     color:var(--accent-2a);
 }
 .motto {
-    color: #48ab97;
+    color: var(--accent-1);
     font-weight:400;
     font-style:italic;
     font-size: 56px;
     display:block;
     text-align:center;
-    padding-left:0;
     letter-spacing:2px;
 }
 .profile-pic {
@@ -164,11 +163,9 @@ hr {
 }
 #logo {
     max-height: 55px;
-    border-style: solid;
-    border-width: 4px;
-    border-color: var(--accent-1);
     border-radius: 4px;
     margin-left: 33px;
+    padding-bottom:5px;
   }
 #logo:hover {
     background-color: var(--color-1);
