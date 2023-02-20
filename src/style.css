@@ -140,4 +140,20 @@ h2 {
     background-color: var(--color-1);
 }
 
-
+@media(max-width:768px){
+    h1{
+        font-size:40px;
+        display:flex;
+        text-align:center;
+    }
+    h2{
+        font-size:30px;
+        display:flex;
+        text-align:center;
+    }
+    h3{
+        font-size:24px;
+        display:flex;
+        text-align:center;
+    }
+}
