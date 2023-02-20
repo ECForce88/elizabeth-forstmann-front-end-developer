@@ -52,7 +52,14 @@ h3 {
     padding-left:38px;
     margin-bottom:25px;  
 }
-
+h2 {
+    color: #48ab97;
+    font-weight:500;
+    font-size: 48px;
+    font-weight:750;
+    display:block;
+    text-align:center;
+}
 
 
 .bg-theme-blue {
@@ -81,12 +88,23 @@ h3 {
 .contact-link:hover{
     color:var(--accent-2a);
 }
+.motto {
+    color: #48ab97;
+    font-weight:400;
+    font-style:italic;
+    font-size: 48px;
+    display:block;
+    text-align:center;
+}
 .profile-pic {
-    max-height: 420px;
+    max-height: 380px;
     max-width: auto;
     margin-top:30px;
     margin-left: 50px;
     box-shadow:var(--default-shadow);
+}
+.projects-title {
+    color:#777ecf;
 }
 .social-icon {
     max-height: 25px;
