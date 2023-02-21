@@ -15,11 +15,11 @@
       crossorigin="anonymous"
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    <link href="src/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="src/test.css">
 
 </head>
 <body>
-    <nav class="navbar navbar-default navbar-expand-md fixed-top navbar-dark bg-theme-blue px-1">
+    <nav class="navbar navbar-default navbar-expand-md fixed-top navbar-dark bg-theme-blue">
         <a class="navbar-brand" href="index.html"><img src="images/new-logo.png" alt="e-force logo" id="logo"></a>
       <button
         class="navbar-toggler"
@@ -61,23 +61,21 @@
       </div>    
   </nav>
 
-  <div class="container-fluid border-top-solid">
+  <div class="container  border-top-solid">
     <div class="row">
-        <div class="col-md-6 my-auto" id="title-text">
-
-          <h1 id="title">Elizabeth Forstmann
-            <div class= "subtitle">Front-End Developer</div>
-          </h1>
-          <h3 id="subheading">Based in Connecticut, USA</h3>
+        <div class="col-lg-6 title-textbox my-auto d-flex">
+          <h1 class="title">Elizabeth Forstmann</h1>
+            <h2 class= "subtitle">Front-End Developer</h2>
+          
+          <h3 class="subheading">Based in Connecticut, USA</h3>
           <a href="#" class="contact-link shadow">Contact Me</a>
         </div>
     
-        <div class="col-md-6 my-auto">
+        <div class="col-lg-6 d-flex justify-content-center my-auto">
           <div class="shadow" style="width: fit-content;
           ">
-          <img src="images/ecf-pic.JPG" alt="photo of e forstmann" class="profile-pic my-auto image-fluid shadow p3 mr-5 mb-0">
-          <h3 class="motto shadow">Let's Build Something Together!</h3>
-        </div>
+          <img src="images/profile-b&w.jpg" alt="photo of e forstmann" class="profile-pic my-auto image-fluid shadow p3 mr-5 mb-0">
+          </div>
       </div>
   </div>
     <br/>   
@@ -91,40 +89,42 @@
     <div class="row row-cols-1 row-cols-md-4 g-3">
       <div class="col">
         <div class="card h-100 w-100 shadow">
-          <img src="images/weather.png" class="card-img-top" alt="Screenshot of weather display">
+          <img src="images/weather2.JPG" class="card-img-top" alt="Screenshot of weather display">
           <div class="card-body">
             <h5 class="card-title">Weather App</h5>
-            <p class="card-text">Accurate up-to-date weather at your fingertips. Get the 5-day forecast for anywhere in the world.</p>
-            <small><a href="https://eforce-weather.netlify.app" class="app-link text-truncate" title="Launch App">Launch App</a></small>
-          </div>
+            <div class="">
+              <p class="card-text">Accurate up-to-date weather at your fingertips. Get the 5-day forecast for anywhere in the world.</p>
+              <small><a href="https://eforce-weather.netlify.app" class="app-link shadow text-truncate mt-auto" title="Launch App">Launch App</a></small>
+              </div>
+            </div>
         </div>
       </div>
       <div class="col">
         <div class="card h-100 w-100 shadow">
-          <img src="images/clock-img.png" class="card-img-top" alt="Screenshot of clock display">
+          <img src="images/clock2.JPG" class="card-img-top" alt="Screenshot of clock display">
           <div class="card-body">
             <h5 class="card-title">World Clock App</h5>
             <p class="card-text">Track the current date and time up to the millisecond wherever you are. Search any city to get accurate date and time anywhere in the world. </p>         
-            <small><a href="https://eforce-world-clock.netlify.app" class="app-link  text-truncate" title="Launch App">Launch App</a></small></div>
+            <small><a href="https://eforce-world-clock.netlify.app" class="app-link shadow text-truncate mt-auto" title="Launch App">Launch App</a></small></div>
         </div>
       </div>
       <div class="col">
         <div class="card h-100 w-100 shadow">
-          <img src="images/home-page.png" class="card-img-top" alt="screenshot of home page">
+          <img src="images/website2.JPG" class="card-img-top" alt="screenshot of home page">
           <div class="card-body">
             <h5 class="card-title">Web Design</h5>
             <p class="card-text">My web designs focus on clean, functional style with a focus on intuitive user experiences.</p>
-            <small><a href="https://forstmann-front-end-developer.netlify.app" class="app-link  text-truncate" title="Launch App">Launch Site</a> </small>
+            <small><a href="https://forstmann-front-end-developer.netlify.app" class="app-link mt-auto text-truncate shadow" title="Launch App">Launch Site</a> </small>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card h-100 w-100 shadow">
-          <img src="images/coming-soon.JPG" class="card-img-top" alt="Coming soon sign">
+          <img src="images/coming-soon2.JPG" class="card-img-top" alt="Coming soon sign">
           <div class="card-body">
             <h5 class="card-title">Future Project</h5>
             <p class="card-text">Check back soon for a peek at my latest project!</p>
-            <small><a href="#" class="app-link  text-truncate" title="Launch App">Launch App</a> </small>
+            <small><a href="#" class="app-link mt-auto text-truncate shadow" title="Launch App">Launch App</a> </small>
           </div>
         </div>
       </div>
@@ -144,6 +144,6 @@
 
           
     </div>
-    </div>
+   
     </body>
   </html>

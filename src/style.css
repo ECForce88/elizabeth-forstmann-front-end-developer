@@ -45,13 +45,9 @@ body {
     background-color: white;    
 }
 h1 {
-    color: var(--accent-1);
+    color: var(--color-1);
     font-size:84px;
     font-weight:900;
-    margin-bottom:0px;
-    margin-left:0;
-    margin-right:0;
-    text-align:left;
 }
 h2 {
     color: var(--accent-2);
@@ -83,6 +79,10 @@ hr {
     padding: 5px 10px;
     max-width: 100px;
     margin-bottom: 5px;
+}
+a.app-link:hover {
+    color: val(--color-1);
+    background-color:#b0b7ff;
 }
 .bg-blue {
     background-color:#777ecf2c;
@@ -233,7 +233,7 @@ hr {
         font-size:24px;
         text-align:center;
     }
-    #title-text{
+    #title-textbox{
         display:flex;
         flex-direction:column;
     }

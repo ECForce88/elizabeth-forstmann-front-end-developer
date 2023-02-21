@@ -1,0 +1,139 @@
+:root {
+    --color-1: #21265e;
+    --accent-1: #777ecf;
+    --accent-1a: #8c93e2;
+    --accent-1b: #b0b7ff;
+    --color-2: #176050;
+    --accent-2: #48ab97;
+    --accent-2a: #7adbc8;
+  
+    --default-shadow: 6px 6px 6px  #21265e9c;
+}
+
+a {
+    color: white;
+    font-size:24px;
+    font-weight: 500;
+    text-decoration: none;
+    align-items:center;
+    border-style:solid;
+    border-color: var(--color-1);
+    border-width: 2px;
+    border-bottom-width: 5px;
+}
+a.app-link {
+    font-size:18px;
+    font-weight: 300;
+    color: white;
+    background-color: var(--accent-1);
+    border-radius: 20px;
+    padding: 5px 10px;
+    max-width: 100px;
+    border:none;
+}
+a.app-link:hover {
+    color: val(--color-1);
+    background-color:#b0b7ff;
+}
+a.nav-link:hover {
+    color:white;
+    cursor: pointer;
+    border-style:solid;
+    border-color: #48ab97;
+    border-width: 2px;
+    border-bottom-width: 5px;
+}
+a.nav-link.active  {
+    color: var(--accent-2a);
+    border-bottom-style:solid;
+    border-bottom-color: #48ab97;
+    border-bottom-width: 5px;
+}
+body {
+    width:100%;
+    height:100%;
+    font-family: 'Urbanist', sans-serif;
+    color: var(--color-1);
+    padding-top:120px;
+    background-color: white;    
+}
+h1 {
+    font-size:80px;
+    font-weight:900;
+}
+h2 {
+    font-size: 40px;
+    line-height:44px;
+    font-weight:900; 
+}
+h3 {
+    font-weight: 700;
+}
+
+
+
+
+.bg-theme-blue {
+    background-color: var(--color-1);
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom:10px solid #48ab97;
+  }
+.contact-link {
+    background-color:var(--color-1);
+    border-radius: 5px;
+    border-style: solid;
+    border-width:2px;
+    border-color: var(--accent-1);
+    color: white;
+    font-size: 18px;
+    font-weight:bold;
+    text-align: center;
+    padding: 5px 10px;
+    max-width:91%;
+    margin-top:20px;
+}
+.profile-pic {
+    border-color:var(--color-1);
+    border-radius: 8px;
+    max-height: auto;
+    max-width: 260px;
+    padding:10px 10px;   
+}
+.social-icon {
+    max-height: 25px;
+    margin-bottom: 0px;
+    margin-right:30px;
+  }
+.subheading {
+    font-weight: 700;
+}
+.subtitle {
+    font-size: 40px;
+    line-height:44px;
+    font-weight:900;
+}
+.title-textbox{
+    display:flex;
+    flex-direction: column;
+    max-height: 375px;
+}
+.title {
+    font-size: 90px;
+    line-height: 90px;
+    color: var(--accent-1);
+    letter-spacing: -2px;    
+}
+
+  #linkedin {
+    max-height: 24px;
+    margin-bottom: 0px;
+    margin-left:60px;
+    margin-right:30px;
+}
+#logo {
+    max-height: 55px;
+    border-radius: 4px;
+    margin-left: 33px;
+    padding-bottom:5px;
+  }
