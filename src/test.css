@@ -70,12 +70,13 @@ body {
     height:100%;
     font-family: 'Urbanist', sans-serif;
     color: var(--color-1);
-    padding-top:120px;
+    padding-top:170px;
     background-color: white;    
 }
 h1 {
-    font-size:80px;
+    font-size:100px;
     font-weight:900;
+
 }
 h2 {
     font-size: 40px;
@@ -87,7 +88,9 @@ h3 {
 }
 
 
-
+lower-line {
+    margin-bottom:30px;
+}
 .bg-head-blue {
     color:white;
     background-color: var(--color-1);
@@ -112,8 +115,8 @@ h3 {
     font-size: 18px;
     font-weight:bold;
     text-align: center;
-    padding: 5px 10px;
-    max-width:91%;
+    padding: 10px 10px;
+    max-width:100%;
     margin-top:20px;
 }
 .name {
@@ -124,8 +127,7 @@ h3 {
     border-color:var(--color-1);
     border-radius: 8px;
     max-height: auto;
-    max-width: 260px;
-    padding:10px 10px;   
+    max-width: 360px;     
 }
 .social-icon {
     max-height: 25px;
@@ -136,18 +138,18 @@ h3 {
     font-weight: 700;
 }
 .subtitle {
-    font-size: 40px;
-    line-height:44px;
+    font-size: 65px;
+    line-height:100px;
     font-weight:900;
 }
 .title-textbox{
     display:flex;
     flex-direction: column;
-    max-height: 375px;
+    max-height: 450px;
 }
 .title {
-    font-size: 90px;
-    line-height: 90px;
+    font-size: 150px;
+    line-height: 120px;
     color: var(--accent-1);
     letter-spacing: -2px;    
 }
