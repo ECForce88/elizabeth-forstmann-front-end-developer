@@ -88,7 +88,7 @@ h3 {
 }
 
 
-lower-line {
+.lower-line {
     margin-bottom:30px;
 }
 .bg-head-blue {
@@ -105,6 +105,20 @@ lower-line {
     padding-bottom: 0;
     border-top:10px solid #48ab97; 
 }
+.bg-blue {
+    background-color:#777ecf2c;
+}
+.bg-green {
+    background-color: #7adbc842;
+}
+.body-text {
+    font-size:22px;
+    text-justify: inter-word;
+    margin-bottom:0;
+    padding-top:10px;
+    font-weight:300;
+    word-spacing: 3px;
+}
 .contact-link {
     background-color:var(--color-1);
     border-radius: 5px;
@@ -118,6 +132,22 @@ lower-line {
     padding: 10px 10px;
     max-width:100%;
     margin-top:20px;
+}.content {
+    padding-top: 70px;
+}
+.content-img {
+    max-width: 526px;
+    height:auto;
+    border-radius: 5px;
+    border-style:solid;
+    border-color:white;
+    border-width:15px;
+}
+
+.content-title {
+    color:var(--color-1);
+    font-size:98px;
+    line-height:100px;
 }
 .name {
     font-weight:700;
@@ -186,7 +216,7 @@ lower-line {
     margin-left: 33px;
     padding-bottom:5px;
   }
-  #logo2 {
+#logo2 {
     max-height: 45px;
     border-radius: 4px;
     padding-bottom:5px;
