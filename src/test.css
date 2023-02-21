@@ -35,6 +35,22 @@ a.app-link:hover {
     color: val(--color-1);
     background-color:#b0b7ff;
 }
+a.code-link:hover {
+    cursor:pointer;
+}
+a.footer-code {
+    font-size:15px;
+    font-weight:300;
+    color:var(--accent-1);
+    border:none;
+}
+a.footer-link {
+    font-size:15px;
+    font-weight:300;
+    color:var(--accent-1);
+    border:none;
+    padding:13px;
+}
 a.nav-link:hover {
     color:white;
     cursor: pointer;
@@ -72,7 +88,6 @@ h3 {
 
 
 
-
 .bg-theme-blue {
     background-color: var(--color-1);
     margin-bottom: 0;
@@ -92,6 +107,14 @@ h3 {
     padding: 5px 10px;
     max-width:91%;
     margin-top:20px;
+}
+
+.footer {
+    color:var(--accent-1)
+}
+.name {
+    font-weight:700;
+    color:var(--accent-2);
 }
 .profile-pic {
     border-color:var(--color-1);
@@ -124,8 +147,28 @@ h3 {
     color: var(--accent-1);
     letter-spacing: -2px;    
 }
+#footer-about {
+    font-size:15px;
+    color: var(--accent-1);
+    border-style: none;
+}
+#footer-portfolio {
+    font-size:15px;
+    color: var(--accent-1);
+    border-style: none;
+}
+#footer-blog {
+    font-size:15px;
+    color: var(--accent-1);
+    border-style: none;
+}
+#footer-contact {
+    font-size:15px;
+    color: var(--accent-1);
+    border-style: none;
+}
 
-  #linkedin {
+#linkedin {
     max-height: 24px;
     margin-bottom: 0px;
     margin-left:60px;
