@@ -259,6 +259,7 @@ ul {
     display: inline-flex;
     flex-direction: column;
     max-width:100%;
+    max-height:auto;
 }
 .title {
     font-size: 150px;
@@ -306,4 +307,26 @@ ul {
     max-height: 50px;
     border-radius: 4px;
     padding-bottom:0px;
+  }
+
+
+  
+
+  @media (max-width:765px) {
+    body {
+        display:block;
+        margin: 0 auto;
+    }
+  }
+  @media (max-width:1200px) {
+    .title-textbox {
+        display:block;
+        text-align:center;
+    }
+    .contact {
+        max-width:100%;
+    }
+    .profile-pic {
+        max-width:100%;
+    }
   }
