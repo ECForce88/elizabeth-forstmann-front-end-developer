@@ -111,11 +111,6 @@ ul {
 
     list-style:none;
 }
-
-
-.lower-line {
-    margin-bottom:30px;
-}
 .bg-head-blue {
     color:white;
     background-color: var(--color-1);
@@ -231,6 +226,7 @@ ul {
     font-weight:700;
     color:var(--accent-2);
 }
+
 .profile-pic {
     border-color:var(--color-1);
     border-radius: 8px;
@@ -304,31 +300,3 @@ ul {
     padding-bottom:0px;
   }
 
-
-  
-
-  @media (max-width:765px) {
-    body {
-        display:block;
-        margin: 0 auto;
-    }
-  }
-  @media (max-width:1200px) {
-    .contact {
-        max-width:100%;
-    }
-    .profile-pic {
-        max-width:100%;
-    }
-    .title {
-        font-size: 68px;
-    }
-  }
-  @media(max-width:1400px) {
-    .title {
-        font-size:130px; 
-    }
-    .subtitle {
-        font-size:50px;
-    }
-  }
