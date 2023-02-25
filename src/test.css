@@ -255,12 +255,7 @@ ul {
     line-height:100px;
     font-weight:900;
 }
-.title-textbox{
-    display: inline-flex;
-    flex-direction: column;
-    max-width:100%;
-    max-height:auto;
-}
+
 .title {
     font-size: 150px;
     line-height: 120px;
@@ -319,14 +314,21 @@ ul {
     }
   }
   @media (max-width:1200px) {
-    .title-textbox {
-        display:block;
-        text-align:center;
-    }
     .contact {
         max-width:100%;
     }
     .profile-pic {
         max-width:100%;
+    }
+    .title {
+        font-size: 68px;
+    }
+  }
+  @media(max-width:1400px) {
+    .title {
+        font-size:130px; 
+    }
+    .subtitle {
+        font-size:50px;
     }
   }
