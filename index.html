@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
-  <nav class="navbar navbar-default navbar-expand-md fixed-top navbar-dark bg-head-blue">
+  <nav class="navbar navbar-default navbar-expand-lg fixed-top navbar-dark bg-head-blue">
     <a class="navbar-brand" href="index.html"><img src="images/new-logo.png" alt="e-force logo" title="logo" id="logo"></a>
     <button
       class="navbar-toggler"
@@ -65,30 +65,31 @@
       </div>
     </div>    
   </nav>
-  <div class="container border-top-solid">
-    <div class="row">
-      <div class="col-12">
-        <h1 class="title">Elizabeth Forstmann</h1>
-        <h2 class= "subtitle">Front-End Developer</h2>
-        <h3 class="subheading">Based in Connecticut, USA</h3>
-        <a href="#" 
-          class="contact-link shadow">Contact Me</a
+  <div class="container">
+    <div class="row title-content">
+      <div class="col-12 col-xl-6">
+        <div class="title-text">
+          <h1 class="title">Elizabeth Forstmann</h1>
+          <h2 class= "subtitle">Front-End Developer</h2>
+          <h3 class="subheading">Based in Connecticut, USA</h3>
+        </div>
+        <a href="about.html#contact" 
+          class="contact-link d-block">Contact Me</a
         >
       </div>
-        
+      <div class="col-12 col-xl-6">
+        <img class="cover-pic d-block d-lg-flex"
+          src="images/coder.jpg" 
+          alt="woman coder at computer">
+      </div>  
       </div>
-    <br/>   
-    <br/>  
-    <br/>
-    <hr id="projects"/>
-    <br/>
-    <br/>
-    <br/>
-      <h2 class="projects-title">Here's what I have been working on . . .</h2>
-    <br/>
-    <div class="row gy-5">
+      <hr id="projects"/>
+    </div>
+    <div class="container">  
+        <h2 class="projects-title">Here's what I have been working on...</h2>
+      <div class="row gy-5">
       <div class="col-lg-4 col-md-6 col-xs-12 d-flex">
-        <div class="card h-100 w-100 shadow">
+        <div class="card h-100 w-100">
           <img src="images/weather2.JPG" 
             class="card-img-top" 
             alt="Screenshot of weather display">
@@ -106,7 +107,7 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-xs-12 d-flex">
-          <div class="card h-100 w-100 shadow">
+          <div class="card h-100 w-100">
             <img src="images/clock2.JPG" 
               class="card-img-top" 
               alt="Screenshot of clock display">
@@ -117,7 +118,7 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-xs-12 d-flex">
-          <div class="card h-100 w-100 shadow">
+          <div class="card h-100 w-100">
             <img 
               src="images/website.jpg" 
               class="card-img-top" 
@@ -129,8 +130,8 @@
               </div>
             </div>
           </div>
-          <div class="colcol-lg-4 col-md-6 col-xs-12 d-flex">
-            <div class="card h-100 w-100 shadow">
+          <div class="col-lg-4 col-md-6 col-xs-12 d-flex">
+            <div class="card h-100 w-100">
               <img 
                 src="images/coming-soon2.JPG" 
                 class="card-img-top" 
@@ -144,12 +145,11 @@
                 </div>
             </div>
           </div>
-    </div>
+        </div>
+      </div>
     <br/>
     <br/>
     <br/>   
-    <br/>
-    <br/>
   </div>   
 <footer class=" px-4">
   <div class="d-flex justify-content-between border-bottom-solid">
