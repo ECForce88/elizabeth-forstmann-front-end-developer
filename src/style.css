@@ -137,6 +137,14 @@ hr {
 .bg-green {
     background-color: #7adbc842;
 }
+.body-text {
+    font-size:22px;
+    text-justify: inter-word;
+    margin-bottom:0;
+    padding-top:10px;
+    font-weight:300;
+    word-spacing: 3px;
+}
 .card {
     border-style:solid;
     border-color:white;
@@ -209,8 +217,11 @@ hr {
 }
 .content-title {
     color:var(--color-1);
-    font-size:98px;
+    font-size:85px;
     line-height:100px;
+    display: block;
+    text-align: end;
+    margin-right: 100px;
 }
 .cover-pic {
     border-style:solid;
@@ -227,21 +238,21 @@ hr {
     word-spacing: 5px;
     padding-left:20px;
 }
-.grid-container{
-    display:grid;
-    align-items:center;
-    grid-template-columns: 250px 250px;
-    grid-auto-rows: minmax(250px, auto);
-}
 .name {
     font-weight:700;
     color:var(--accent-2);
 }
 .profile-pic {
-    border-color:var(--color-1);
-    border-radius: 8px;
-    max-height: auto;
-    max-width: 80%;     
+    max-width: 64%;
+    border-radius: 5px;
+    border-style:solid;
+    border-color:white;
+    border-width:15px;
+    box-shadow: var(--default-shadow);
+    display: block;
+    margin: block-end;
+    
+
 }
 .projects-title {
     color:#47bca4;

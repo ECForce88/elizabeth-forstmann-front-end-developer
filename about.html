@@ -16,18 +16,12 @@
       crossorigin="anonymous"
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    <link href="src/test.css" rel="stylesheet" type="text/css" />
+    <link href="src/style.css" rel="stylesheet" type="text/css" />
 
 </head>
-<body class="content px-md-3">
-  <nav class="navbar navbar-default navbar-expand-md fixed-top navbar-dark bg-head-blue">
-    <a class="navbar-brand" 
-      href="index.html" title="eforce logo">
-      <img 
-        src="images/new-logo.png" 
-        alt="e-force logo" 
-        id="logo"></a
-    >
+<body>
+  <nav class="navbar navbar-default navbar-expand-lg fixed-top navbar-dark bg-head-blue">
+    <a class="navbar-brand" href="index.html"><img src="images/new-logo.png" alt="e-force logo" title="logo" id="logo"></a>
     <button
       class="navbar-toggler"
       type="button"
@@ -41,79 +35,50 @@
     </button>
     <div class="collapse navbar-collapse justify-content-around" id="navbarNavAltMarkup">
       <div class="d-flex flex-column flex-md-row">
-        <a class="nav-link" pl-0 ml-0  
-          href="index.html"
-          title="home">Home</a>
-        <a class="nav-link active" 
-          aria-current="page" 
-          href="about.html"
-          title="about">About</a
-          >
-        <a class="nav-link" 
-          href="about.html#contact"
-          title="contact"
+        <a class="nav-link active" aria-current="page" href="index.html" title="home">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="about.html#contact" title="contact"
           >Contact</a
         >
-        <a class="nav-link" 
-          href="certification.html"
-          title="certification">Certifications</a>
-        <a class="nav-link" 
-          href="index.html#projects"
-          title="portfolio">Portfolio</a
-          >
-        <a class="nav-link" 
-          href="#"
-          title="blog"
-          >Blog</a
-        >
+        <a class="nav-link" href="certification.html" title="certifications">Certifications</a>
+        <a class="nav-link" href="index.html#projects">Portfolio</a>
+        <a class="nav-link" href="#" title="blog">Blog</a>
       </div>
       <div class="d-flex">
         <a
-          class="h-22"
           href="https://www.linkedin.com/in/elizabeth-forstmann-338bb8121"
-          target="_blank"
+          target="_blank" 
           title="Linkedin"
-          ><img 
-            src="images/LI-white.png" 
-            class="social-icon" 
-            id="linkedin"></a
+          ><img src="images/LI-white.png" class="social-icon" id="linkedin"></a
         >
         <a
-          href="https://github.com/ECForce88"
-          target="_blank"
-          title="GitHub"
-        >
-        <img 
-          src="images/GH_white.png" 
-          class="social-icon">
-        </a
+        href="https://github.com/ECForce88"
+        target="_blank"
+        title="GitHub"
+        ><img src="images/GH_white.png" class="social-icon"></a
         >
         <a
           href="https://www.youtube.com/channel/UC7Ir0O6SOjZmEfvGwvKhsqg"
           target="_blank"
           title="YouTube"
-          >
-          <img 
-            src="images/YT-white.png" 
-            class="social-icon mr-2">
-        </a
+          ><img src="images/YT-white.png" class="social-icon mr-2"></a
         >
       </div>
     </div>    
   </nav>
-  <div class="container border-top-solid">
-    <div class="row py-5"> 
-      <div class="col-lg-6 title-textbox mt-5 d-flex">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6">
         <h1 class="content-title">About Me.</h1>
-        <br/>
-        <br/>
-         <img 
-          src="images/coder.JPG" 
-          alt="woman coding" 
-          class="content-img shadow my-auto">
-          </div>
-          <div class="col-lg-6 d-flex justify-content-center align-items-center">
-            <p class="body-text  bg-green w-100 p-5 mt-5">
+        <div class="float-right"> 
+        <img
+          class="profile-pic d-flex img-fluid float-right" 
+          src="images/ecf-pic.JPG" 
+          alt="photo of e forstmann">
+      </div>
+    </div>
+      <div class="col-12 col-md-6">
+            <p class="body-text  bg-green">
                 I am a former teacher, new to the software development scene. The
                 more I learn, the more I want to learn! I have always been
                 passionate about technology in the classroom from game-based
@@ -126,16 +91,13 @@
                 software development and web design. I'm thrilled to use my skills and eye for
                 design to bring your project to life from concept to code!
             </p> 
-        </div>
       </div>
-      <div class="container" id="contact" w-100>
-        <br/>
-        <br/>
-        <br/>
-      <div class="row">
+    </div>
+    <div class="row">
+      <div class="col-12">
         <div class="contact-info">
           <h3 class="contact">Contact Me:</h3>
-        <div class="contact-item mr-2">
+        <div class="contact-item">
           <img src="images/email-icon-blue.JPG" 
             alt="email-icon" 
             class="contact-icon py-auto my-auto text-truncate">  
@@ -147,7 +109,6 @@
               ElizabethForstmann@gmail.com</a
             >
         </div>
-          
         <div class="contact-item">
           <img src="images/LI-icon-blue.JPG" 
             alt="linkedin" 
@@ -163,9 +124,9 @@
         </div>
       </div>
     </div>
-    </div>
+  </div>
   </div>  
-<footer class="px-4">
+<footer>
   <div class="d-flex justify-content-between">
   <div class="left-footer footer-text my-auto d-flex justify-content-start">Elizabeth Forstmann 2023 : 
       <a href="https://github.com/ECForce88/profile-site-v2" 
