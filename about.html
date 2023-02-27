@@ -35,9 +35,9 @@
     </button>
     <div class="collapse navbar-collapse justify-content-around" id="navbarNavAltMarkup">
       <div class="d-flex flex-column flex-md-row">
-        <a class="nav-link active" aria-current="page" href="index.html" title="home">Home</a>
-        <a class="nav-link" href="about.html">About</a>
-        <a class="nav-link" href="about.html#contact" title="contact"
+        <a class="nav-link" href="index.html" title="home">Home</a>
+        <a class="nav-link active" aria-current="page" href="about.html">About</a>
+        <a class="nav-link" id="contact-nav-link" href="about.html#contact" title="contact"
           >Contact</a
         >
         <a class="nav-link" href="certification.html" title="certifications">Certifications</a>
@@ -66,47 +66,46 @@
       </div>
     </div>    
   </nav>
-  <div class="container">
+  <div class="container about-container">
     <div class="row">
-      <div class="col-12 col-md-6">
-        <h1 class="content-title">About Me.</h1>
-        <div class="float-right"> 
-        <img
-          class="profile-pic d-flex img-fluid float-right" 
-          src="images/ecf-pic.JPG" 
-          alt="photo of e forstmann">
+      <div class="col-12 col-lg-6">
+        <div class=" content-left-box">
+          <h1 class="content-title">About Me.</h1> 
+          <img
+            class="profile-pic" 
+            src="images/ecf-pic.JPG" 
+            alt="photo of e forstmann">
+        </div>
       </div>
-    </div>
-      <div class="col-12 col-md-6">
-            <p class="body-text  bg-green">
-                I am a former teacher, new to the software development scene. The
-                more I learn, the more I want to learn! I have always been
-                passionate about technology in the classroom from game-based
-                learning to innovative collaboration and presentation software. I
-                first learned to code with blocks alongside my students, and I was
-                hooked. I left the elementary classroom to teach middle school
-                computer science courses, challenging myself to stay a few steps
-                ahead of my students and develop new curriculum. While I loved
-                sharing my passion with my students, I decided to pursue a career in
-                software development and web design. I'm thrilled to use my skills and eye for
-                design to bring your project to life from concept to code!
-            </p> 
+      <div class="col-12 col-lg-6">
+        <div  class="body-text">
+          <p> I am a former teacher, new to the software development scene. The
+            more I learn, the more I want to learn! I have always been
+            passionate about technology in the classroom from game-based
+            learning to innovative collaboration and presentation software. I
+            first learned to code with blocks alongside my students, and I was
+            hooked. I left the elementary classroom to teach middle school                computer science courses, challenging myself to stay a few steps
+            ahead of my students and develop new curriculum. While I loved
+            sharing my passion with my students, I decided to pursue a career in
+            software development and web design. I'm thrilled to use my skills and eye for
+            design to bring your project to life from concept to code!  
+          </p>
+        </div> 
       </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <div class="contact-info">
-          <h3 class="contact">Contact Me:</h3>
+  </div>
+  <div class="row" id="contact">
+    <div class="col-12">
+      <div class="contact-info">
+        <h3 class="contact">Contact Me:</h3>
         <div class="contact-item">
           <img src="images/email-icon-blue.JPG" 
             alt="email-icon" 
             class="contact-icon py-auto my-auto text-truncate">  
           <a href="mailto:elizabethforstmann@gmail.com" 
             target="_blank" 
-            class="contact-address my-auto"
-            title="email"
-          >
-              ElizabethForstmann@gmail.com</a
+            class="contact-address"
+            title="email">
+            ElizabethForstmann@gmail.com</a
             >
         </div>
         <div class="contact-item">
@@ -118,7 +117,7 @@
             class="contact-address my-auto text-truncate"
             target="_blank"
             title="Linkedin"
-          >linkedin.com/in/
+          >Linkedin.com/in/
           <strong>e-forstmann</strong></a
           >
         </div>
